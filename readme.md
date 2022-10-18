@@ -13,3 +13,5 @@
 - [ ] Expand the planet roster.
 - [ ] Improve the speed of the website being rendered.
 - [ ] Add a Navbar relevant to the theme, i.e: space. (Would suggest a comet themed navbar!)
+
+### Maintained by: [Mohamed Ayaan](https://github.com/Mohamed-Ayaan358)
