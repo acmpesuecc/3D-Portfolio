@@ -3,12 +3,16 @@
 ### Purpose:-
  This website is a three.js based website portfolio that aims to be an introduction on how we can utilise blender based objects in our website designs.
  
-### Libraries needed for the program are:-
+### Install dependencies
+```bash
+npm install
+```
+### Run the website
+```bash
+npm run dev
+```
 
-1. npm install vite ,(Framework)
-2. nnpm install three
-
-### To Run: npm run dev
+It'll serve the website at `https://localhost:<port>`, follow that link and see the website
 
 ### Additional features to be added:-
 
