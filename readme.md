@@ -5,8 +5,10 @@
  
 ### Libraries needed for the program are:-
 
-1. Utilise Vite.js framework
-2. Install Three.js
+1. npm install vite ,(Framework)
+2. nnpm install three
+
+### To Run: npm run dev
 
 ### Additional features to be added:-
 
