@@ -15,6 +15,7 @@ const camera=new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight
 //3
 const renderer=new THREE.WebGLRenderer({
   canvas:document.querySelector('#bg'),
+  canvas:document.querySelector(".work"),
 });
 
 
@@ -43,7 +44,7 @@ moon.position.x=-10;
 scene.add(moon)
 scene.add(earth)
 
-const pointLight=new THREE.PointLight(0xffffff);
+const pointLight=new THREE.PointLight(0xffffff,1,100);
 pointLight.position.set(1,1,1);
 scene.add(pointLight);
 
