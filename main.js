@@ -145,4 +145,13 @@ function animate() {
   renderer.render(scene, camera);
 }
 
+document.querySelectorAll(".btn").forEach((ele) =>
+  ele.addEventListener("click", function (event) {
+    event.preventDefault();
+    document
+      .querySelectorAll(".btn")
+      .forEach((ele) => ele.classList.remove("active"));
+    this.classList.add("active")
+  })
+);
 animate()
