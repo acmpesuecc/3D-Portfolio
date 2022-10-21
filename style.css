@@ -16,6 +16,9 @@ canvas {
   font-style: normal;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 main {
   width: 100vw;
@@ -58,7 +61,13 @@ canvas {
     background: var(--dark-bg);
     font-size: 1.25rem;
     line-height: 1.5;
+    margin-top: 10rem;
     margin-bottom: var(--spacing);
+  }
+
+  .padding{
+    padding: 2rem;
+    background:none;
   }
 
   blockquote {
@@ -78,4 +87,50 @@ canvas {
 
   .left {
     grid-column: 6 / 12;
+  }
+
+  .topnav {
+    background-color: #000;
+    /* overflow: hidden; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* padding: 2px 50px; */
+    /* box-shadow: 0 1px 8px  */
+  }
+
+  .topnav h1{
+    margin-right: auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    /* float: left; */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .btn{
+    list-style: none;
+  }
+  
+  .topnav a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  a.active {
+    background-color: #ddd;
+    color: black;
   }
